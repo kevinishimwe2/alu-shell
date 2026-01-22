@@ -1,6 +1,2 @@
 #!/bin/bash
-for dir in . .. /boot
-do
-	echo "Contents of $dir:"
-	ls -la "$dir"
-done
+ls . .. /boot
