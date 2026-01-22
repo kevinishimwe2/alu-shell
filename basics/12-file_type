@@ -1,2 +1,2 @@
 #!/bin/bash
-file /tmp/iamafile
+( echo -e '#include <stdio.h>\nint main(){printf("Hello\n");return 0;}' > /tmp/test.cgcc /tmp/test.c -o /tmp/iamafile rm /tmp/test.c file /tmp/iamafile )
