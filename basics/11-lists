@@ -1,2 +1,7 @@
 #!/bin/bash
-echo "Current directory:" ;ls -la ;echo "" ;echo "Parent directory:"; ls -la .. ;echo "" ;echo "/boot directory:"; ls -la /boot
+for dir in . .. /boot
+do
+	  echo "Contents of $dir:" 
+	    ls -la "$dir"
+   done
+
