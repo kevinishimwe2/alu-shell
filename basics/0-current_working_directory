@@ -1,2 +1,2 @@
 #!/bin/bash
- echo "/tmp/correction/4272791212599445516479793554824048168319_5/2019/7140/basics"
+echo "$pwd"
